@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.FinanceTracker" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:colorPrimary">@color/fintech_primary</item>
+        <item name="android:colorPrimaryDark">@color/fintech_primary_dark</item>
+        <item name="android:colorAccent">@color/fintech_primary</item>
+        <item name="android:datePickerDialogTheme">@style/FintechDatePickerDialogTheme</item>
+    </style>
+
+    <style name="FintechDatePickerDialogTheme" parent="android:Theme.Material.Light.Dialog">
+        <item name="android:colorAccent">@color/fintech_primary</item>
+        <item name="android:colorPrimary">@color/fintech_primary</item>
+        <item name="android:colorControlActivated">@color/fintech_primary</item>
+        <item name="android:colorControlHighlight">@color/fintech_primary_light</item>
+        <item name="android:textColorPrimary">@color/fintech_text_primary</item>
+        <item name="android:buttonBarPositiveButtonStyle">@style/FintechDialogButtonStyle</item>
+        <item name="android:buttonBarNegativeButtonStyle">@style/FintechDialogButtonStyle</item>
+    </style>
+
+    <style name="FintechDialogButtonStyle" parent="android:Widget.Material.Light.Button.Borderless">
+        <item name="android:textColor">@color/fintech_primary</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>
