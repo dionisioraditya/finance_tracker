@@ -122,7 +122,7 @@ fun DashboardScreen(
                         )
                         Column {
                             Text(
-                                text = "Laporan Keuangan",
+                                text = "Finance Tracker",
                                 style = FintechTypography.headlineMedium,
                                 color = FintechColors.TextInverse
                             )

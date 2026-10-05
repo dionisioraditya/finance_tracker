@@ -73,7 +73,8 @@ fun ManageCategoriesScreen(
     val displayCategories = if (selectedTab == 0) expenseCategories else coldWalletCategories
 
     Scaffold(
-        containerColor = androidx.compose.ui.graphics.Color.Transparent,
+//        containerColor = androidx.compose.ui.graphics.Color.Transparent,
+        containerColor = FintechColors.PrimaryLight,
         floatingActionButton = {
             FloatingActionButton(
                 onClick = {
